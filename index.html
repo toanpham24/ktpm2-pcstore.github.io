@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive coffee shop website design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">VNĐ</span>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>build your dream pc</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+            <a href="#" class="btn">get yours now</a>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>what makes our coffee special?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span> </h1>
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="img-product">
+                    <img class="img-prd" src="https://bizweb.dktcdn.net/100/329/122/products/corsair-ddr4-2400-bl-01-5c5c3850-3ebc-4259-bbe2-b6b8db169294.jpg?v=1630418307193" alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">Ram PC Corsair Vengeance LPX 8GB 3000MHz DDR4 </h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">25000đ</span>
+                        </div>
+                    </div>
+                    <div class="add-card">
+                        <button type="button" class="btn btn-cart">add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img-product">
+                    <img class="img-prd" src="https://vietminh.vn/uploads/chip-i5-10400f.jpg" alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">
+                        Chip Core i5 10400F socket 1200</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">25000đ</span>
+                        </div>
+                    </div>
+                    <div class="add-card">
+                        <button type="button" class="btn btn-cart">add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img-product">
+                    <img class="img-prd" src="https://hanoicomputercdn.com/media/product/57833_mainboard_asrock_h510m_hdm_hvs_1.jpg" alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">
+                        ASROCK H510M-HDV (Intel H510, m-ATX, 2 khe Ram DDR4)</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">25000đ</span>
+                        </div>
+                    </div>
+                    <div class="add-card">
+                        <button type="button" class="btn btn-cart">add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img-product">
+                    <img class="img-prd" src="https://hanoicomputercdn.com/media/product/52345_rog_strix_z490_e_gaming_01_01.jpg" alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">
+                        Mainboard ASUS ROG STRIX Z490-E GAMING (Intel Z490, Socket 1200, ATX, 4 khe RAM DDR4)
+                    </h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">25000đ</span>
+                        </div>
+                    </div>
+                    <div class="add-card">
+                        <button type="button" class="btn btn-cart">add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-product">
+                    <img class="img-prd" src="https://bizweb.dktcdn.net/100/329/122/products/970-evo-plus-1tb-03.jpg?v=1630418265850" alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">
+                        SSD Samsung 970 EVO Plus PCIe NVMe V-NAND M.2 2280 1TB MZ-V7S1T0BW</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">25000đ</span>
+                        </div>
+
+                    </div>
+                    <div class="add-card">
+                        <button type="button" class="btn btn-cart">add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>Hoan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>Nam</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>Dung</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30675.063809227486!2d108.20525945!3d16.045604249999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218389cf02c2b%3A0xbdc63233587e2d88!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkMO0bmcgw4E!5e0!3m2!1sen!2s!4v1634917093551!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">created by <span>nhom 1 JVS</span> | IT20A3B</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
